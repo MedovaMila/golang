@@ -1,7 +1,3 @@
-package main
+1 1
 
-import "fmt"
-
-func main() {
-	fmt.Println("Hello, Go !")
-}
+2	2
