@@ -15,7 +15,7 @@ func main() {
 	log.Fatal(err)
 	fmt.Println(input)
 
-	if grade == 100 {
+	//if grade == 100 {
 		fmt.Println("Perfect!")
 	} else if grade >= 60 {
 		fmt.Println("You pass.")
