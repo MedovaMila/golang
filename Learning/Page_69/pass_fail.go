@@ -1,10 +1,10 @@
 package main
 
 import (
-	"bufio"
+	"bufio" // пакет для функции Reader
 	"fmt"
-	"log"
-	"os"
+	"log" // для вывода ошибки
+	"os"  // для чтения с клавиатуры
 )
 
 func main() {
