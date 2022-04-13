@@ -1,14 +1,13 @@
 package main
 
 import (
-	"calc"
-	"fmt"
 	"greeting"
+	"greeting/deutsch"
 )
 
 func main() {
 	greeting.Hello()
 	greeting.Hi()
-	fmt.Println(calc.Add(1, 2))
-	fmt.Println(calc.Subtract(7, 3))
+	deutsch.Hallo()
+	deutsch.GutenTag()
 }
