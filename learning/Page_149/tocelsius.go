@@ -2,9 +2,8 @@ package main
 
 import (
 	"fmt"
-	"log"
-
 	"github.com/headfirstgo/keyboard"
+	"log"
 )
 
 func main() {
