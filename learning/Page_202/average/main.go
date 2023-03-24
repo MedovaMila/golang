@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"learning/datafile"
+	datafile "learning/datafile/new"
 	"log"
 )
 
 func main() {
-	numbers, err := datafile.GetFloats("/home/lmedova/go/bin/data.txt")
+	numbers, err := datafile.GetFloats("/home/lmedova/go/test/data.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
