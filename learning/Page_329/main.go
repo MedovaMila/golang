@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	geo "learning/geo/new"
+	geo "learning/geo/Page_329"
 )
 
 func main() {
